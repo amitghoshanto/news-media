@@ -9,7 +9,7 @@
             <div class="row g-2 align-items-center">
                 <div class="col">
                     <h2 class="page-title">
-                        Cards
+                        Category
                     </h2>
                 </div>
             </div>
@@ -35,10 +35,12 @@
                                     <tr>
                                         <td>
                                             <div class="d-flex py-1 align-items-center">
-                                                <span class="avatar me-2" style="background-image: url(./static/avatars/006m.jpg)"></span>
+                                                <span class="avatar me-2"
+                                                    style="background-image: url(./static/avatars/006m.jpg)"></span>
                                                 <div class="flex-fill">
                                                     <div class="font-weight-medium">Lorry Mion</div>
-                                                    <div class="text-secondary"><a href="#" class="text-reset">lmiona@livejournal.com</a></div>
+                                                    <div class="text-secondary"><a href="#"
+                                                            class="text-reset">lmiona@livejournal.com</a></div>
                                                 </div>
                                             </div>
                                         </td>
@@ -54,10 +56,12 @@
                                     <tr>
                                         <td>
                                             <div class="d-flex py-1 align-items-center">
-                                                <span class="avatar me-2" style="background-image: url(./static/avatars/004f.jpg)"></span>
+                                                <span class="avatar me-2"
+                                                    style="background-image: url(./static/avatars/004f.jpg)"></span>
                                                 <div class="flex-fill">
                                                     <div class="font-weight-medium">Leesa Beaty</div>
-                                                    <div class="text-secondary"><a href="#" class="text-reset">lbeatyb@alibaba.com</a></div>
+                                                    <div class="text-secondary"><a href="#"
+                                                            class="text-reset">lbeatyb@alibaba.com</a></div>
                                                 </div>
                                             </div>
                                         </td>
@@ -73,10 +77,12 @@
                                     <tr>
                                         <td>
                                             <div class="d-flex py-1 align-items-center">
-                                                <span class="avatar me-2" style="background-image: url(./static/avatars/007m.jpg)"></span>
+                                                <span class="avatar me-2"
+                                                    style="background-image: url(./static/avatars/007m.jpg)"></span>
                                                 <div class="flex-fill">
                                                     <div class="font-weight-medium">Perren Keemar</div>
-                                                    <div class="text-secondary"><a href="#" class="text-reset">pkeemarc@yahoo.com</a></div>
+                                                    <div class="text-secondary"><a href="#"
+                                                            class="text-reset">pkeemarc@yahoo.com</a></div>
                                                 </div>
                                             </div>
                                         </td>
@@ -95,7 +101,8 @@
                                                 <span class="avatar me-2">SA</span>
                                                 <div class="flex-fill">
                                                     <div class="font-weight-medium">Sunny Airey</div>
-                                                    <div class="text-secondary"><a href="#" class="text-reset">saireyd@prlog.org</a></div>
+                                                    <div class="text-secondary"><a href="#"
+                                                            class="text-reset">saireyd@prlog.org</a></div>
                                                 </div>
                                             </div>
                                         </td>
@@ -111,10 +118,12 @@
                                     <tr>
                                         <td>
                                             <div class="d-flex py-1 align-items-center">
-                                                <span class="avatar me-2" style="background-image: url(./static/avatars/009m.jpg)"></span>
+                                                <span class="avatar me-2"
+                                                    style="background-image: url(./static/avatars/009m.jpg)"></span>
                                                 <div class="flex-fill">
                                                     <div class="font-weight-medium">Geoffry Flaunders</div>
-                                                    <div class="text-secondary"><a href="#" class="text-reset">gflaunderse@loc.gov</a></div>
+                                                    <div class="text-secondary"><a href="#"
+                                                            class="text-reset">gflaunderse@loc.gov</a></div>
                                                 </div>
                                             </div>
                                         </td>
