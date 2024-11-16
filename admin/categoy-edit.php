@@ -16,8 +16,26 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <form class="card" method="post" action="<?php echo BASE_URL . 'validation/admin-category.php'; ?>">
-                                <input type="hidden" name="category_id" value="1">
+                            <?php 
+
+                            $id = $_GET['id'];
+                            $category = $db->query("SELECT * FROM categories WHERE id = '$id' LIMIT 1");
+                            $count = $category->num_rows;
+                            $category = mysqli_fetch_assoc($category);
+
+                            if ($count == 0) {
+                            echo "Category not found";
+                            }
+                            else {
+                                
+                           
+                            ?>
+
+
+
+                            <form class="card" method="post"
+                                action="<?php echo BASE_URL . 'validation/admin-category.php'; ?>">
+                                <input type="hidden" name="category_id" value="<?php echo $category['id']; ?>">
                                 <div class="card-header">
                                     <h3 class="card-title">Edit form</h3>
                                 </div>
@@ -25,7 +43,8 @@
                                     <div class="mb-3">
                                         <label class="form-label required">Category Name</label>
                                         <div>
-                                            <input type="text" class="form-control" placeholder="Enter Name" name="name">
+                                            <input type="text" class="form-control" placeholder="Enter Name" name="name"
+                                                value="<?php echo $category['name']; ?>">
 
                                         </div>
                                     </div>
@@ -34,9 +53,12 @@
 
                                 </div>
                                 <div class="card-footer text-end">
+
                                     <button type="submit" class="btn btn-primary" name="update">Update</button>
                                 </div>
                             </form>
+
+                            <?php } ?>
                         </div>
 
 

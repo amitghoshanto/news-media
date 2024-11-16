@@ -16,7 +16,8 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <form class="card" method="post" action="<?php echo BASE_URL . 'validation/admin-category.php'; ?>">
+                            <form class="card" method="post"
+                                action="<?php echo BASE_URL . 'validation/admin-category.php'; ?>">
                                 <div class="card-header">
                                     <h3 class="card-title">Basic form</h3>
                                 </div>
@@ -24,7 +25,8 @@
                                     <div class="mb-3">
                                         <label class="form-label required">Category Name</label>
                                         <div>
-                                            <input type="text" class="form-control" placeholder="Enter Name" name="name">
+                                            <input type="text" class="form-control" placeholder="Enter Name"
+                                                name="name">
 
                                         </div>
                                     </div>

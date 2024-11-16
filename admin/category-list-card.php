@@ -9,21 +9,40 @@
                 </tr>
             </thead>
             <tbody>
+
+
+
+
+
+                <?php 
+                $categories = $db->query("SELECT * FROM categories");
+                $categories = $categories->fetch_all(MYSQLI_ASSOC);
+                
+                foreach ($categories as $category) { ?>
+
                 <tr>
-                    <td>Test name</td>
+
+                    <td><?php echo $category['name']; ?></td>
 
                     <td>
                         <div class="btn-list">
-                            <a href="<?php echo BASE_URL . 'admin/categoy-edit.php?id=1'; ?>" class="btn btn-primary">Edit</a>
+                            <a href="<?php echo BASE_URL . 'admin/categoy-edit.php?id='.$category['id']; ?>"
+                                class="btn btn-primary">Edit</a>
 
                             <form action="<?php echo BASE_URL . 'validation/admin-category.php'; ?>" method="post">
-                                <input type="hidden" name="category_id" value="1">
+                                <input type="hidden" name="category_name" value="<?php echo $category['id']; ?>">
                                 <button type="submit" class="btn btn-danger" name="delete">Delete</button>
                             </form>
                         </div>
                     </td>
 
                 </tr>
+
+
+                <?php } ?>
+
+
+
 
 
             </tbody>
