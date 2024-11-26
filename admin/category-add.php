@@ -70,11 +70,7 @@
     <!-- Libs JS -->
     <script src="https://preview.tabler.io/dist/libs/apexcharts/dist/apexcharts.min.js?1726507346" defer></script>
     <script src="https://preview.tabler.io/dist/libs/jsvectormap/dist/jsvectormap.min.js?1726507346" defer></script>
-    <script src="https://preview.tabler.io/dist/libs/jsvectormap/dist/maps/world.js?1726507346" defer></script>
-    <script src="https://preview.tabler.io/dist/libs/jsvectormap/dist/maps/world-merc.js?1726507346" defer></script>
-    <!-- Tabler Core -->
-    <script src="https://preview.tabler.io/dist/js/tabler.min.js?1726507346" defer></script>
-    <script src="https://preview.tabler.io/dist/js/demo.min.js?1726507346" defer></script>
+    <script src="https://preview.tadmin-post.tabler.io/dist/js/demo.min.js?1726507346" defer></script>
 
 </body>
 <?php require_once('../views/backend/footer.php');  ?>

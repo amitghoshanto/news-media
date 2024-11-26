@@ -17,6 +17,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <?php 
+                          
 
                             $id = $_GET['id'];
                             $category = $db->query("SELECT * FROM categories WHERE id = '$id' LIMIT 1");

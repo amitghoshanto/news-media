@@ -43,5 +43,15 @@ if (isset($_POST['update'])) {
 }
 
 if (isset($_POST['delete'])) {
+    var_dump($_POST);
+    $category_id = $_POST['category_id'];
+    $query = $db->query("DELETE FROM categories WHERE id = '$category_id'"); // delete category
     echo 'delete this';
+    if ($query) {
+        $_SESSION['message'] = 'Category deleted successfully';
+    } else {
+        $_SESSION['message'] = 'Category not deleted';
+    }
+    // return to the same page
+    header('Location: ' . ADMIN_URL . 'category-add.php');
 }
